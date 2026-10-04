@@ -1,0 +1,31 @@
+# Binaries
+/hcloud-tui
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test / coverage
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Local secrets — never commit tokens
+.env
+.env.*
+*.pem
+config.local
